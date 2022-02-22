@@ -1,6 +1,6 @@
-import './App.css';
+import './functionBased/App.css';
 // component file
-import TodoContainer from './components/TodoContainer';
+import TodoContainer from './functionBased/components/TodoContainer';
 
 function App() {
   return (
