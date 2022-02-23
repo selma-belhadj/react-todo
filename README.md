@@ -1,11 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# React Template as a setup for React projects
+# TODO LIST APP
 
-
-> Set up a React web app as a template for projects.
-- You can use this template as a setup for your React projects 
-- This template include the most important linters, Linter is a tool that analyzes your source code to flag programming errors, bugs, stylistic errors, and suspicious constructs 
+> This project, is a simple to do list app that will help manage task by making such a list, you ensure that all of your chores are written down in one spot, ensuring that you don't overlook anything vital. And by prioritizing tasks, you determine the sequence in which you'll complete them, so you know what needs your immediate attention and what can wait.
 
 
 
@@ -25,9 +22,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 - clone the repository by running\
-    `git clone https://github.com/selma-belhadj/react-template.git`
+    `git clone git@github.com:selma-belhadj/react-todo.git`
 - navigate to the folder\
-    `cd math-magicians`
+    `cd react-todo`
 - Install packages\
     `npm install`
 - Run the app\
