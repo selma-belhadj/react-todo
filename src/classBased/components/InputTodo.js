@@ -2,6 +2,7 @@
 /* eslint-disable react/state-in-constructor */
 /* eslint-disable react/destructuring-assignment */
 /* eslint-disable react/prop-types */
+/* eslint-disable no-alert */
 
 import React, { Component } from 'react';
 
