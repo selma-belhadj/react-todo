@@ -79,7 +79,7 @@ header {
   line-height: 1.5em;
 }
 
-.PlusCircle{
+.PlusCircle {
   color: darkcyan;
   font-size: 20px;
   margin-top: 2px;
@@ -87,7 +87,7 @@ header {
 
 .trashBtn {
   color: orangered;
-  size: 16px;
+  font-size: 16px;
 }
 
 .active-link {
@@ -107,7 +107,7 @@ header {
   top: 40px;
   z-index: 10;
   cursor: pointer;
-  background: transparent;;
+  background: transparent;
   border: none;
 }
 

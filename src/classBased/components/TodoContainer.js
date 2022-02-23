@@ -69,7 +69,7 @@ class TodoContainer extends React.Component {
       this.setState({
         todos: this.state.todos.map((todo) => {
           if (todo.id === id) {
-            todo.title = updatedTitle;
+            todo.title = updatedTitle; // eslint-disable-line no-param-reassign
           }
           return todo;
         }),
