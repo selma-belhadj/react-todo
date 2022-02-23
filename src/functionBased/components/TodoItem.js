@@ -3,8 +3,8 @@
 /* eslint-disable react/state-in-constructor */
 
 import React, { useState, useEffect } from 'react';
+import { FaTrash } from 'react-icons/fa';
 import styles from './TodoItem.module.css';
-import { FaTrash } from "react-icons/fa"
 
 const TodoItem = (props) => {
   const [editing, setEditing] = useState(false);
@@ -50,7 +50,7 @@ const TodoItem = (props) => {
           checked={completed}
           onChange={() => props.handleChangeCheck(id)}
         />
-        <button type="button" onClick={() => props.deletetodo(id)} className="input-submit"><FaTrash  className="trashBtn"/></button>
+        <button type="button" onClick={() => props.deletetodo(id)} className="input-submit"><FaTrash className="trashBtn" aria-label="button" /></button>
         <span style={completed ? completedStyle : null}>{title}</span>
       </div>
       <input
